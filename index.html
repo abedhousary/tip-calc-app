@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="title">Spli
+      <div class="under">tter</div>
+    </div>
+    <div class="container">
+      <div class="left-container">
+        <div class="con-title">Bill</div>
+        <div class="form-holder">
+          <input type="text" class = "amount" id= "bill">
+          <div class="dollar-sign"><img src="./images/icon-dollar.svg" alt=""></div>
+        </div>
+        <div class="con-title">Select Tip %</div>
+        <div class="button-grid">
+          <div class="btn-amount">5%</div>
+          <div class="btn-amount">10%</div>
+          <div class="btn-amount">15%</div>
+        </div>
+        <div class="button-grid">
+          <div class="btn-amount">25%</div>
+          <div class="btn-amount">50%</div>
+          <div class="btn-amount no-bg ">Custom</div>
+        </div>
+         <div class="con-title">Number of People</div>
+         <div class="form-holder">
+          <input type="text" class = "amount" id = "nbofppl">
+          <div class="dollar-sign"><img src="./images/icon-person.svg" alt=""></div>
+        </div>
+      </div>
+      <div class="right-container">
+        <div class="inner-container">
+          <div class="data-holder">
+            <div class="data">Tip Amount
+            <div class="per"> / person</div>
+          </div>
+            <div class="total" id = "tipppers">$0</div>
+          </div>
+             <div class="data-holder">
+            <div class="data">Total
+            <div class="per"> / person</div>
+          </div>
+            <div class="total" id = "totalam">$0</div>
+          </div>
+          <div class="btn">Reset</div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
